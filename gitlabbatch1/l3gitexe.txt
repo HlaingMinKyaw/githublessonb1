@@ -1,0 +1,94 @@
+git --version
+
+=>Set Local user name and email
+git config --local user.name "ayechitpo"
+git config --local user.email "laizin.9876@gmail.com"
+
+=>Check Local user name and email
+git config --local user.name
+git config --local user.email
+
+=>Check List all Variables
+git config -l
+git config -l --show-origin
+
+=>Remove List all Variables
+git config --local --unset user.name
+git config --local --unset user.email
+
+=>Check Local user name and email
+git config --local user.name
+git comfig --local user.email
+
+=>Build new folder in cmd or git bush here
+git init gitlesson1
+cd gitlesson1
+
+=>Check Floder Direction
+(in Linux) = ls / ls -la
+(in Window) = dir
+
+
+git status
+=>Set Default Branch
+git config --global init.defaultBranch master
+
+for linux = vim lesson1.txt
+for linus = i > esc > :wq
+
+git add lesson1.txt
+
+git status
+
+git commit -m "adding lesson1.txt"
+
+git status
+
+git log
+
+=>Create New Branch
+git branch new-feature
+
+=>Check All Branch List
+git branch
+
+
+=>Change Default Branch
+git checkout new-feature
+git status
+
+*5,6/4/2023
+git add lesson1.txt
+
+git status
+
+git commit -m "add 2 countries lesson1.txt";
+
+git status
+
+git log
+
+git add lesson2.txt
+
+git status
+
+git commit -m "add lesson2.txt";
+
+git status
+
+dir
+
+cat lesson1.txt
+cat lesson2.txt
+
+git checkout master
+
+git status
+
+dir
+
+cat lesson1.txt
+
+dir
+
+git checkout new-feature

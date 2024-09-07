@@ -1,0 +1,68 @@
+=>Branch
+
+
+=>Create Branch
+=Syntax
+git branch branchname
+
+
+
+mkrdir lesson5
+git init
+git status
+
+
+
+touch file1.txt
+git status
+git add file1.txt
+git commit -m "added file1"
+git status
+
+git branch
+
+git branch bugfix
+git branch
+
+git branch dev
+git branch
+
+Note: -b means new branch
+git checkout -b new-feature
+
+
+=>Switch
+git checkout bugfix
+git branch
+
+
+
+
+=>Rename Branch
+git branch 
+git branch -m my-feature
+git branch
+git checkout bugfix
+git branch -m bugerror
+git branch
+
+
+
+
+=>Delete Branch (can delete when didn't choose)
+=Syntax
+git branch --delete branchname
+or
+git branch --d branchname
+or
+git branch --D branchname
+
+git branch
+git branch --delete dev
+git branch
+git branch -d my-feature
+fit branch
+git checkout main
+git branch
+git branch -D bugerror
+git branch

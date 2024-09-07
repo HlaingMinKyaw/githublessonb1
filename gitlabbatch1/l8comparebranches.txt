@@ -1,0 +1,76 @@
+mkdir lesson6
+cd lesson6
+git init
+
+touch file1.txt
+touch file2.txt
+
+vim file1.txt (linux) , file1.txt(window)
+edit:
+this is post one
+this is post two
+this is post three
+
+esc > :wq
+
+git status
+
+git add *
+git commit -m "added file 1 2"
+
+
+git branch
+ls(linux),dir(w)
+cat file1.txt
+
+git branch new-feature
+
+git branch
+git checkout new-feature
+git branch
+
+touch file3.txt
+touch file4.txt
+
+vim file3.txt (linux) , file3.txt(window)
+edit:
+this is comment one
+this is comment two
+this is comment three
+
+esc > :wq
+
+vim file4.txt (linux) , file4.txt(window)
+edit:
+this is react one
+this is react two
+this is react three
+
+esc > :wq
+
+vim file1.txt (linux) , file1.txt(window)
+edit:
+this is post four
+this is post fivr
+this is post six
+
+esc > :wq
+
+git status
+git status -s 
+> M,??
+git diff
+
+git add *
+git status
+git status -s
+git diff(no result)
+git commit -m "added file1 M file 2 3 A"
+git status
+
+clear(os)
+
+=>check branches's differences after commit
+git diff main new-feature
+clear
+git diff new-feature main

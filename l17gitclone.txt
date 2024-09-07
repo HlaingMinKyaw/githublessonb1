@@ -1,0 +1,30 @@
+==> Git Clone 
+
+
+mkdir lesson2
+cd lesson
+
+
+window = ls.
+
+
+
+windows = exploser .
+linux = xdg-open .
+
+
+In Terminal
+git pull origin
+
+==Change something
+
+===Change something in index.html from local public
+git status
+git add .
+git status
+git commit "M from local pc address index.html"
+git push -u origin main
+error**
+
+git pull origin main
+***unchange**

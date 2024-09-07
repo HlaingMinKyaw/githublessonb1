@@ -1,0 +1,31 @@
+=>Git Version Check
+git --version
+git Version
+
+
+=>Upgrade Git in Linux (for Ubuntu)
+sudo apt remove git
+sudo add-apt repository ppa:git-core/ppa -y
+sudo apt-get update
+sudo apt-get install git -y 
+
+
+=>User Config
+git config --global user.name "ayechitpo"
+git config --global user.email "laizin.9876@gmail.com"
+
+git config --local user.name "acpp"
+git config --local user.email "ayechit.9876@gmail.com"
+
+git config --global user.name
+git config --global user.email
+
+git config --local user.name
+git config --local user.email
+
+
+=>List all Variables in config file
+git config -l
+git config -l --show-origin
+
+30GT

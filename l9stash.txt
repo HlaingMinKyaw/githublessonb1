@@ -1,0 +1,32 @@
+mkdir lesson7
+cd lesson7
+git init
+git status
+
+touch file0.txt
+ls / dir
+echo "welcome to or site" > file0.txt
+file0.txt / cat file0.txt
+git status
+git add file0.txt
+git commit -m "added file0"
+git status
+
+rm .git
+rm rf .git
+
+
+
+touch file1.txt
+dir
+echo "welcome to our site" > file1.txt
+file1.txt / cat file1.txt
+git status
+git add file1.txt
+git status
+dir
+
+git stash
+git status
+dir / ls
+git stash list

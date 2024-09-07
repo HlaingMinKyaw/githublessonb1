@@ -1,0 +1,70 @@
+Git Ignore
+
+mkdir lesson4
+cd lesson4
+
+git init
+git status
+
+=>Ban file format
+touch .gitignore (os code)
+ls -la
+
+for linux  = vim .gitignore
+for window = .gitignore --edit
+
+# Compiled Sources #
+################
+*.com
+*.class
+*.dll
+*.exe
+*.xlsx
+
+# Packages #
+*.zip
+*.rar
+*.tar
+*.7zip
+*.dmg
+*.iso
+
+# Image Sources #
+*.jpeg
+*.png
+*.ico
+
+esc > :wq
+
+
+
+
+touch country.txt
+touch phone.txt
+touch computer.txt
+touch user.jpg
+touch favicon.ico
+touch application.exe
+touch database.xlsx
+touch plugin.zip
+
+git status
+>
+country.txt
+phone.txt
+computer.txt
+user.jpg
+
+ls -la (check file list)
+rm .gitignore (os code)
+
+git status
+>
+application.exe
+computer.txt
+country.txt
+touch database.xlsx
+touch favicon.ico
+phone.txt
+plugin.zip
+user.jpg
